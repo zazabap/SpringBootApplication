@@ -1,0 +1,8 @@
+spring.boot.admin.client:
+  url: http://localhost:9001
+  username: admin
+  password: password
+  instance:
+    metadata:
+      user.name: admin
+      user.password: password
