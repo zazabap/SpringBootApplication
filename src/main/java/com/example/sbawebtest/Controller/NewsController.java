@@ -1,8 +1,7 @@
 package com.example.sbawebtest.Controller;
 
-import com.example.mybatisplus.pojo.News;
-import com.example.mybatisplus.pojo.User;
-import com.example.mybatisplus.service.NewsService;
+import com.example.sbawebtest.pojo.News;
+import com.example.sbawebtest.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

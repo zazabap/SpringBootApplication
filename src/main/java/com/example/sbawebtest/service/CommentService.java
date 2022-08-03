@@ -1,8 +1,9 @@
 package com.example.sbawebtest.service;
 
-import com.example.mybatisplus.pojo.Comment;
+import com.example.sbawebtest.pojo.Comment;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.mybatisplus.pojo.News;
+import com.example.sbawebtest.pojo.News;
+import com.example.sbawebtest.pojo.Comment;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -1,9 +1,9 @@
 package com.example.sbawebtest.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mybatisplus.pojo.Comment;
-import com.example.mybatisplus.service.CommentService;
-import com.example.mybatisplus.mapper.CommentMapper;
+import com.example.sbawebtest.mapper.CommentMapper;
+import com.example.sbawebtest.pojo.Comment;
+import com.example.sbawebtest.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,7 @@ import java.util.List;
 */
 @Service
 public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment>
-    implements CommentService{
+    implements CommentService {
 
     @Autowired
     private CommentMapper commentMapper;

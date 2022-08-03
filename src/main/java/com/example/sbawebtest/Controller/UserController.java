@@ -1,7 +1,8 @@
 package com.example.sbawebtest.Controller;
 
-import com.example.mybatisplus.pojo.User;
-import com.example.mybatisplus.service.UserService;
+
+import com.example.sbawebtest.pojo.User;
+import com.example.sbawebtest.service.UserService;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;

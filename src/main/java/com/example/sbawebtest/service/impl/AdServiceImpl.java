@@ -1,9 +1,9 @@
 package com.example.sbawebtest.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mybatisplus.pojo.Ad;
-import com.example.mybatisplus.service.AdService;
-import com.example.mybatisplus.mapper.AdMapper;
+import com.example.sbawebtest.mapper.AdMapper;
+import com.example.sbawebtest.pojo.Ad;
+import com.example.sbawebtest.service.AdService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
 */
 @Service
 public class AdServiceImpl extends ServiceImpl<AdMapper, Ad>
-    implements AdService{
+    implements AdService {
 
     private AdMapper adMapper;
 

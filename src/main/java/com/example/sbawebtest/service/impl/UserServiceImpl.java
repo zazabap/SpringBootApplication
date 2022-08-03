@@ -3,9 +3,9 @@ package com.example.sbawebtest.service.impl;
 import com.baomidou.mybatisplus.core.assist.ISqlRunner;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mybatisplus.mapper.UserMapper;
-import com.example.mybatisplus.pojo.User;
-import com.example.mybatisplus.service.UserService;
+import com.example.sbawebtest.mapper.UserMapper;
+import com.example.sbawebtest.pojo.User;
+import com.example.sbawebtest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

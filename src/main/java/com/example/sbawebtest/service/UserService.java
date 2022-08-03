@@ -1,7 +1,7 @@
 package com.example.sbawebtest.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.mybatisplus.pojo.User;
+import com.example.sbawebtest.pojo.User;
 
 import java.util.List;
 

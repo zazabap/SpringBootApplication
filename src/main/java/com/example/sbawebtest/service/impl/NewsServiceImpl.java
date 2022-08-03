@@ -1,10 +1,9 @@
 package com.example.sbawebtest.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mybatisplus.pojo.News;
-import com.example.mybatisplus.service.NewsService;
-import com.example.mybatisplus.mapper.NewsMapper;
-import org.jetbrains.annotations.TestOnly;
+import com.example.sbawebtest.mapper.NewsMapper;
+import com.example.sbawebtest.pojo.News;
+import com.example.sbawebtest.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +16,7 @@ import java.util.List;
 */
 @Service
 public class NewsServiceImpl extends ServiceImpl<NewsMapper, News>
-    implements NewsService{
+    implements NewsService {
 
     @Autowired
     private NewsMapper newsMapper;

@@ -1,8 +1,7 @@
 package com.example.sbawebtest.mapper;
 
-import com.example.mybatisplus.pojo.News;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.mybatisplus.pojo.User;
+import com.example.sbawebtest.pojo.News;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Map;
