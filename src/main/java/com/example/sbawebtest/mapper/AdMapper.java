@@ -2,6 +2,7 @@ package com.example.sbawebtest.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.sbawebtest.pojo.Ad;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Map;
@@ -12,6 +13,7 @@ import java.util.Map;
 * @createDate 2022-07-15 13:32:13
 * @Entity com.example.mybatisplus.pojo.Ad
 */
+@Mapper
 public interface AdMapper extends BaseMapper<Ad> {
 
     Map<String, Object> selectMapById(long id);

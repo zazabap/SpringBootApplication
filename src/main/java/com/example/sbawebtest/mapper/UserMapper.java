@@ -2,10 +2,12 @@ package com.example.sbawebtest.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.sbawebtest.pojo.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Map;
 
+@Mapper
 public interface UserMapper extends BaseMapper<User>{
 
     // Return only the wanted object instead of
